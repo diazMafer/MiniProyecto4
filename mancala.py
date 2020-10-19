@@ -1,3 +1,10 @@
+""""
+    Universidad del Valle de Guatemala. Guatemala, 2020. 
+    Modelación y Simulación. 
+    Ana Lucía Hernández (17138) y Maria Fernanda López (17160). 
+
+    Módulo con las funciones relacionadas a la lógica del juego Mancala. 
+"""
 import random
 import math
 

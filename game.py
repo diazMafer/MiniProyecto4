@@ -1,3 +1,10 @@
+""""
+    Universidad del Valle de Guatemala. Guatemala, 2020. 
+    Modelación y Simulación. 
+    Ana Lucía Hernández (17138) y Maria Fernanda López (17160). 
+
+    Módulo con las funciones relacionadas a la parte aleatoria (Montecarlo) del jugador 2 (computadora). 
+"""
 import random
 from mancala import *
 from utils import print_board
