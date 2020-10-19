@@ -10,6 +10,9 @@ from mancala import status
 
 iters_arr = [0, 500, 10000]
 level = input("Ingrese el número de dificultad que desea: \n\t1. Noob \n\t2. Avanzado \n\t3. Pro\n>")
+while int(level)-1 not in [0,1,2]:
+    print("Opción incorrecta.")
+    level = input("Ingrese el número de dificultad que desea: \n\t1. Noob \n\t2. Avanzado \n\t3. Pro\n>")
 iters = iters_arr[int(level) -1]
 winner = game(player, monteCarlo, status, iters, True)
 print("Ganador: " + str(winner + 1))
